@@ -15,7 +15,7 @@
     >
       <div class="flex items-center space-x-2" id="Home">
         <div
-          class="w-9 h-9 bg-purple-700 text-white rounded-full flex items-center justify-center font-bold"
+          class="w-9 h-9 bg-purple-700 text-white rounded-full flex items-center justify-center font-bold ml-[110px]"
         >
           P
         </div>
@@ -28,12 +28,11 @@
         <li>
           <a href="#Portfolio" class="hover:text-purple-700">Portfolio</a>
         </li>
-        <li><a href="#Blog" class="hover:text-purple-700">Blog</a></li>
         <li><a href="#Services" class="hover:text-purple-700">Services</a></li>
         <li>
           <a
-            href="#"
-            class="bg-purple-700 text-white px-4 py-1 rounded-md hover:bg-purple-800 transition"
+            href="#Services"
+            class="bg-purple-700 text-white px-4 py-1 rounded-md hover:bg-purple-800 transition mr-[130px]"
             >Contact</a
           >
         </li>
@@ -57,7 +56,7 @@
         <button
           class="mt-6 bg-purple-700 text-white px-6 py-2 rounded-md hover:bg-purple-800 transition shadow-lg shadow-purple-500/50"
         >
-          Say Hello!
+          <a href="#Services">Say Hello!</a>
         </button>
       </div>
       <div class="md:w-1/2 flex justify-center mb-10 md:mb-0">
@@ -132,7 +131,7 @@
             <button
               class="bg-purple-700 text-white px-6 py-2 rounded-md hover:bg-purple-800 transition"
             >
-              My Project
+              <a href="#Portfolio"> My Project</a>
             </button>
             <button
               class="border border-purple-700 text-purple-700 px-6 py-2 rounded-md hover:bg-purple-100 transition"
@@ -498,13 +497,12 @@
         <ul
           class="flex flex-wrap gap-4 justify-center md:justify-start text-gray-400"
         >
-          <li><a href="#" class="hover:text-white">Home</a></li>
-          <li><a href="#" class="hover:text-white">About</a></li>
-          <li><a href="#" class="hover:text-white">Services</a></li>
-          <li><a href="#" class="hover:text-white">Process</a></li>
-          <li><a href="#" class="hover:text-white">Portfolio</a></li>
-          <li><a href="#" class="hover:text-white">Blog</a></li>
-          <li><a href="#" class="hover:text-white">Contact</a></li>
+          <li><a href="#Home" class="hover:text-white">Home</a></li>
+          <li><a href="#about" class="hover:text-white">About</a></li>
+          <li><a href="#Services" class="hover:text-white">Services</a></li>
+          <li><a href="#Process" class="hover:text-white">Process</a></li>
+          <li><a href="#Portfolio" class="hover:text-white">Portfolio</a></li>
+          <li><a href="#Services" class="hover:text-white">Contact</a></li>
         </ul>
         <p class="mt-4 md:mt-0 text-xs text-gray-500">
           Copyright © 2025 Prerak.
@@ -512,8 +510,6 @@
       </div>
     </footer>
 
-    <script>
-      feather.replace();
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
