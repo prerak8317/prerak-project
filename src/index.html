@@ -505,38 +505,55 @@
         </div>
 
         <!-- Contact Form -->
-        <form class="md:w-1/2 space-y-5">
+        <form
+          class="md:w-1/2 space-y-5"
+          action="https://api.web3forms.com/submit"
+          method="POST"
+        >
           <div class="grid md:grid-cols-2 gap-4">
+            <input
+              type="hidden"
+              name="access_key"
+              value="52be50b4-fb05-4a7f-93d1-3e02b44023f5"
+            />
+
             <input
               type="text"
               placeholder="Name*"
+              name="name"
               class="border-b-2 focus:outline-none focus:border-purple-600 py-2 px-1 bg-transparent text-sm"
             />
             <input
               type="email"
               placeholder="Email*"
+              name="email"
               class="border-b-2 focus:outline-none focus:border-purple-600 py-2 px-1 bg-transparent text-sm"
             />
           </div>
           <input
             type="text"
             placeholder="Location"
+            name="Location"
             class="w-full border-b-2 focus:outline-none focus:border-purple-600 py-2 px-1 bg-transparent text-sm"
           />
           <div class="grid md:grid-cols-2 gap-4">
             <input
               type="text"
               placeholder="Budget*"
+              name="budget"
               class="border-b-2 focus:outline-none focus:border-purple-600 py-2 px-1 bg-transparent text-sm"
             />
             <input
               type="text"
               placeholder="Subject*"
+              name="subjact"
               class="w-full border-b-2 focus:outline-none focus:border-purple-600 py-2 px-1 bg-transparent text-sm"
             />
           </div>
           <textarea
             placeholder="Message*"
+            name="message"
+            required
             rows="3"
             class="w-full border-b-2 focus:outline-none focus:border-purple-600 py-2 px-1 bg-transparent text-sm"
           ></textarea>
